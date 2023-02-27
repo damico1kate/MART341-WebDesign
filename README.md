@@ -1,2 +1,2 @@
 # MART341-WebDesign
-Introduction to Web Design Homework
+Introduction to web desing homework 
