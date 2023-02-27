@@ -1,0 +1,4 @@
+-A directory is a fie that contains information needed to access other files and directory files. 
+The relation ship between files and directories is files hold information and that file is held in a directory.
+-Version control software is helpful with files that need to be worked on with multiple people. VCS helps with tracing and managing these files. 
+-My favorite artistic medium is physical watercolors for painting. This is my favorite because it's familiar to me becuase my sister paints with watercolors. 
