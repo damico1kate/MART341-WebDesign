@@ -1,0 +1,1 @@
+The difference of structureal and semantic mark up is that structural is the coding that sets up the overall structure of the site/document and provides the information of the layout aka the look. Semantic is what holds the information of the acutual "data" rather than the look/ style details. 
