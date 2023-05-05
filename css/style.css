@@ -1,39 +1,145 @@
 
-h1{
-    color: hsl(0, 40%, 98%);
-    font-family: Open sans ;
-    font-size: 50px;
-    letter-spacing: 0.75em;
+#header {
+   text size: 100px;
 }
 
-
-
-.content-paragraph{
-    margin: auto;
-    color: #0b0b0b;
-    font-family: Open sans ;
-    font-size: 30px;
-    line-height: 33px;
-    max-width: 645px;
+h1{ 
+    color:aqua;
+    font-size: 150px;
+    letter-spacing: 0.3em;
 }
 
-.content{
-    font-size: 25px;
-    font-family: Open sans ;
-    line-height: 40px;
+.titleBorder{
+    height: 230px;
+    background-color: blueviolet;
+    color: blue;
+    width: 100%;
+    overflow: auto;
+
+}
+
+#first-bar {
+    margin-top: 4em;
+    padding: 1em;
 }
 
 #title:hover {
-    letter-spacing: 1em;
-    color:chartreuse;
+    letter-spacing: 1.5em;
+    color: aquamarine;
+}
+
+#titleBorder:hover{
+    background-color: chartreuse;
+    color:fuchsia;
+    text-indent: 12em;
+}
+
+.subtitle{
+    padding-top: 65px;
+    font-size: 70px;
+    margin: auto;
 
 }
 
-.titleBorder {
-    height: 130px;
-    width: 800px;
-    background-color: white;
-    color:black;
-    text-size-adjust: 750px;
-  
+.content-paragraph{
+    margin: auto;
+    color:blueviolet;
+    font-size: 25px;
+    line-height: 25px;
+    max-width: 650px;
+}
+
+.content-paragraph::first-line{
+    font-size: 35px;
+    line-height: 45px;
+}
+
+
+
+/* Menu */
+
+header {
+    position:relative;
+    background-color:black;
+    width: 99%;
+    height: 5em;
+    top: 0px;
+text-align: right;
+}
+
+/* set the layout */
+
+.menu-item {
+    display: inline-block;
+    margin: 1em .2em;
+    background-color: antiquewhite;
+}
+
+
+.menu-item:hover{
+    background-color: blueviolet;
+}
+.menu-item a {
+    color:aliceblue
+}
+
+/* drop down */
+
+.dropdown {
+    display: inline-block;
+
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin: 0.5em 0 0 -1em;
+    color:brown;
+    background-color: aqua;
+    z-index: 1;
+    border-radius: 0em 0em 1em 1em;
+}
+
+.dropdown-content a {
+    color:beige;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* style dropdown item display: */
+
+.dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em 1em 0.5em 1em;
+    min-width: 5.7em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a{
+    color:aliceblue;
+    background-color: aquamarine;
+
+}
+
+.dropdown:hover{
+    border-radius: 0em 0em 1em 1em;
+}
+
+/* footer*/
+
+footer {
+    width: 100%;
+    background-color: beige;
+    height: 4em;
+    text-align: center;
+    padding-top: 1em;
+
+}
+
+#footer-link {
+    color: blueviolet;
+    font-weight: bold;
 }
