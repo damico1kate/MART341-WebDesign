@@ -1,0 +1,215 @@
+#header{
+     background-image: url("../images/sequim\ ss.JPG");
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-family:  Open;
+    font-size: 50px;
+    letter-spacing: 0.3em;
+}
+
+.titleBorder{
+    height: 200px;
+    background-color:rgb(196, 188, 245) ;
+    color:rgb(0, 0, 0);
+    width: 100%;
+    overflow: auto;
+}
+
+#first-bar {
+    margin-top: 4em;
+    padding: 1em;
+
+}
+
+#title:hover {
+    background-color: rgb(252, 246, 173);
+    color: rgb(196, 188, 245);
+    text-indent: 11em;
+    font-family: Open;
+}
+
+.subtitle{
+    padding-top: 50px;
+    font-size: 65px;
+    font-style: italic;
+    margin:auto;
+
+}
+
+.content-paragraph{
+    margin: auto;
+    color:#000000;
+    font-size: 18.5px;
+    line-height: 30px;
+    max-width: 800px;
+    font-family: Open;
+
+}
+
+.content-paragrph::first-line{
+    font-size: 30px;
+    font-family: Open;
+    line-height: 40px;
+
+}
+
+.wa-link:visited{
+    color: #0a090a;
+
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: inherit;
+    width: 10px;
+    height: 10px;
+    padding-left: 200px;
+    padding-right: 550px;
+
+}
+
+img {
+    border: 20px solid rgb(196, 188, 245);
+    
+}
+
+#img-link:hover{
+    border: 50px solid #151515;
+
+}
+
+/* Menu */
+
+header {
+    position: fixed;
+    top: 0px;
+    background-color: rgb(252, 246, 173);
+    margin-top: 0;
+    height: 4em;
+    width: 99%;
+    text-align: right;
+    font-family: Open;
+    padding-right: 3em;
+}
+
+/* Set the layout of menu*/
+
+.menu-item {
+    display: inline-block;
+    margin: 1em .2em;
+    min-width: 6em;
+    text-align: center;
+    background-color: #333;
+    padding: 0.7em 2em;
+    border-radius: 1em;
+}
+
+.site-name {
+    color: #000000;
+    margin: 1em .2em;
+    min-width: 6em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    letter-spacing: 0.3em;
+    float:left;
+    font-weight: bold;
+
+}
+
+/* style the links */
+
+.menu-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background-color:rgb(194, 193, 193);
+    color:#333;
+
+}
+
+
+/* add a dropdown feature: */
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    margin: 0.5em 0 0 -1em;
+    color: #000;
+    background-color: #fff;
+    z-index: 1;
+    border-radius: 0em 0em 1em 1em;
+}
+
+.dropdown-content a {
+    color:#000;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* style dropdown item display: */
+
+.dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em 1em 0.5em 1em;
+    min-width: 5.9em;
+
+}
+
+.dropdown-item:hover .dropdown-item:hover a {
+    color: white;
+    background-color: rgb(196, 188, 245);
+
+}
+
+.dropdown:hover {
+    border-radius: 1em 1em 0em 0em;
+}
+
+#foundation:hover{
+    border-radius: 0em 0em 1em 1em ;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    background-color: rgb(252, 246, 173);
+    height: 3em;
+    text-align: center;
+    font-family: Open;
+    padding-top: 1em;
+}
+
+#footer-link {
+    color:black;
+    font-weight: bold;
+}
+
+
+
+
+
+.site-name2 {
+    color: #000000;
+    margin: 1em .2em;
+    min-width: 6em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    letter-spacing: 0.3em;
+    float:left;
+    font-weight: bold;
+}
