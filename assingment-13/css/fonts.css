@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Open';
+    src: url('../fonts/Poppins/Poppins-Light.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open';
+    src: url('../fonts/Poppins/Poppins-ExtraBoldItalic.ttf') format('truetype')  ;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Open';
+    src: url('../fonts/Poppins/Poppins-Black.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open';
+    src: url('../fonts/Poppins/Poppins-LightItalic.ttf');
+    font-weight: 600;
+}
